@@ -51,6 +51,7 @@ nav{
    background-color:#042940;
    padding: 10px;
    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.445);
+   font-size: 14px;
 }
 
 nav > a {
