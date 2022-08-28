@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Kameron:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+margin: 0px;
+padding: 0px; 
+}
+body{
+
+background-color:#d6d58ed5;
+
+}
+ 
+header{
+    background-color: #042940;
+    text-align:center;
+    padding: 40px;
+}
+
+header > h1{
+    
+    color: white;
+    font-family:  'Kameron', serif;
+    font-size: 2.8em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.199);
+    
+   
+    
+}
+header h2 {
+    
+    color: white;
+    font-family: 'Kameron', serif ;
+    font-size: 2.2em;
+    font-weight: normal;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.199);
+   
+}
+
+nav{
+   background-color:#042940;
+   padding: 10px;
+   box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.445);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition-duration: 0.7s;
+
+}
+
+nav > a:hover {
+    background-color:#2D61A1;
+    color:#10233B;
+    border-radius: 5px;
+
+}
+main {
+background-color: white;
+min-width: 300px;
+max-width: 1200px;
+margin: auto;
+margin-bottom: 30px;
+padding: 30px;
+box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.486);
+border-radius: 0px 0px 10px 10px;
+}
+
+main h1 {
+    font-family:'Bebas Neue', cursive;
+    font-size: 2.5em;
+    font-weight: normal;
+    color:#042940;
+}
+
+
+main h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    font-weight: normal;
+    color: #042940;
+    
+    
+}
+main h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right,#9AEBA3,#DAFDBA, transparent );
+    color:  #042940;;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
+}
+main p {
+margin: 15px 0px;
+text-align: justify;
+text-indent: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.1em;
+line-height: 1.6em;
+}
+
+main img {
+     width:100%;
+}
+main img#LogoPuma {
+     width:20% ;
+     padding-left: 39%;
+     image-rendering: auto;
+     
+}
+
+
+main img#polara {
+    width:50% ;
+    padding-left: 25%;
+    image-rendering: auto;
+    
+}
+
+main img#emblemagurgel{
+    width:20% ;
+    padding-left: 39%;
+    image-rendering: auto;
+    
+}
+
+
+.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 20px -20px;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 50%;
+   }
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside > ul {
+    list-style:none;
+    columns: 2;
+   padding-bottom: 10px;
+   background-color: #DAFDBA;
+
+}
+
+aside > ul > li{
+    margin: 5px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside p{
+    background-color: #DAFDBA;
+    padding: 10px;
+} 
+
+footer{
+    background-color: #042940;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+
+}
+
+footer > a {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+footer > a:hover {
+    background-color:#2D61A1;
+    color:#10233b;
+    text-decoration: underline;
+
+}
