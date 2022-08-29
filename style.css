@@ -49,9 +49,11 @@ header h2 {
 
 nav{
    background-color:#042940;
-   padding: 10px;
+   padding: 15px;
    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.445);
    font-size: 14px;
+  
+
 }
 
 nav > a {
@@ -61,13 +63,14 @@ nav > a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition-duration: 0.7s;
-
+    margin: 5px;
 }
 
 nav > a:hover {
     background-color:#2D61A1;
     color:#10233B;
     border-radius: 5px;
+    text-decoration: underline;
 
 }
 main {
